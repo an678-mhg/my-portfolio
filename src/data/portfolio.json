@@ -1,0 +1,250 @@
+{
+  "personal": {
+    "name": "Nguyễn Quốc An",
+    "position": "Frontend Developer",
+    "email": "an567008@gmail.com",
+    "github": "https://github.com/an678-mhg",
+    "npm": "https://www.npmjs.com/package/vnetwork-player",
+    "location": "Hà Nội, Việt Nam",
+    "experience": "2+ năm kinh nghiệm",
+    "bio": "Với hơn 2 năm kinh nghiệm xây dựng ứng dụng web hiện đại sử dụng ReactJS và các công nghệ tiên tiến. Tôi chuyên tạo ra những giao diện người dùng đẹp mắt và trải nghiệm tương tác mượt mà.",
+    "status": "Sẵn sàng làm việc"
+  },
+
+  "skills": {
+    "frontend": [
+      {
+        "name": "ReactJS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+        "color": "#61DAFB"
+      },
+      {
+        "name": "Next.js",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg",
+        "color": "#000000"
+      },
+      {
+        "name": "TypeScript",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+        "color": "#3178C6"
+      },
+      {
+        "name": "JavaScript",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+        "color": "#F7DF1E"
+      },
+      {
+        "name": "Tailwind CSS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg",
+        "color": "#06B6D4"
+      },
+      {
+        "name": "Redux",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redux/redux-original.svg",
+        "color": "#764ABC"
+      },
+      {
+        "name": "HTML5",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+        "color": "#E34F26"
+      },
+      {
+        "name": "CSS3",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+        "color": "#1572B6"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg",
+        "color": "#339933"
+      },
+      {
+        "name": "Express.js",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg",
+        "color": "#000000"
+      },
+      {
+        "name": "NestJS",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-original.svg",
+        "color": "#E0234E"
+      },
+      {
+        "name": "Ruby on Rails",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rails/rails-original-wordmark.svg",
+        "color": "#CC0000"
+      },
+      {
+        "name": "Go",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg",
+        "color": "#00ADD8"
+      },
+      {
+        "name": "PostgreSQL",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+        "color": "#336791"
+      },
+      {
+        "name": "Redis",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/redis/redis-original.svg",
+        "color": "#DC382D"
+      },
+      {
+        "name": "MongoDB",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg",
+        "color": "#47A248"
+      }
+    ],
+    "tools": [
+      {
+        "name": "Docker",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+        "color": "#2496ED"
+      },
+      {
+        "name": "Git",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg",
+        "color": "#F05032"
+      },
+      {
+        "name": "GitLab",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg",
+        "color": "#FCA326"
+      },
+      {
+        "name": "Firebase",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg",
+        "color": "#FFCA28"
+      },
+      {
+        "name": "Figma",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg",
+        "color": "#F24E1E"
+      },
+      {
+        "name": "VS Code",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+        "color": "#007ACC"
+      },
+      {
+        "name": "NPM",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg",
+        "color": "#CB3837"
+      },
+      {
+        "name": "Webpack",
+        "logo": "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg",
+        "color": "#8DD6F9"
+      }
+    ]
+  },
+
+  "projects": [
+    {
+      "title": "VNETWORK.VN",
+      "description": "Website giới thiệu dịch vụ của công ty VNETWORK với hơn 20 trang hiển thị, hệ thống CMS và giỏ hàng.",
+      "tech": ["Next.js", "Strapi JS", "Ruby on Rails"],
+      "features": ["Frontend với 20+ trang", "Hệ thống CMS", "Tự động gửi email"],
+      "type": "Commercial Website",
+      "gradient": "from-blue-500 to-cyan-500",
+      "link": null
+    },
+    {
+      "title": "DataCentral",
+      "description": "Hệ thống nội bộ doanh nghiệp với nhiều module: Drives, Warehouse, Ticket & CV management.",
+      "tech": ["ReactJS", "Ruby on Rails", "Keycloak"],
+      "features": [
+        "File sharing như Google Drive",
+        "Quản lý thiết bị",
+        "Hệ thống phân quyền"
+      ],
+      "type": "Enterprise System",
+      "gradient": "from-purple-500 to-pink-500",
+      "link": null
+    },
+    {
+      "title": "TikTok Clone",
+      "description": "Clone ứng dụng TikTok với giao diện và chức năng cơ bản, sử dụng công nghệ hiện đại.",
+      "tech": ["ReactJS", "Tailwind CSS", "Zustand"],
+      "features": ["UI/UX tương tự TikTok", "Video player", "State management"],
+      "type": "Personal Project",
+      "gradient": "from-green-500 to-teal-500",
+      "link": "https://github.com/an678-mhg/tiktok-clone"
+    },
+    {
+      "title": "VNETWORK Player",
+      "description": "Thư viện React mã nguồn mở giúp nhúng player VNETWORK dễ dàng vào các dự án.",
+      "tech": ["ReactJS", "TypeScript", "NPM"],
+      "features": ["Component tái sử dụng", "TypeScript support", "NPM package"],
+      "type": "Open Source Library",
+      "gradient": "from-orange-500 to-red-500",
+      "link": "https://www.npmjs.com/package/vnetwork-player"
+    }
+  ],
+
+  "experience": [
+    {
+      "company": "VNETWORK JSC",
+      "position": "Front End Developer",
+      "period": "2022 – 2024",
+      "location": "Hà Nội, Việt Nam",
+      "description": "Tham gia các dự án lớn như website chính vnetwork.vn và hệ thống quản lý nội bộ. Học hỏi và phối hợp với backend team (Ruby on Rails) và devops team (Docker, CI/CD).",
+      "achievements": [
+        "Phát triển website chính của công ty với 20+ trang",
+        "Xây dựng hệ thống quản lý nội bộ phục vụ 100+ nhân viên",
+        "Tích hợp API và làm việc với backend team",
+        "Triển khai CI/CD và Docker cho dự án"
+      ],
+      "gradient": "from-blue-500 to-purple-600"
+    },
+    {
+      "company": "GPET - CodeGym Online",
+      "position": "Intern/Collaborator",
+      "period": "2021 – 2022",
+      "location": "Remote",
+      "description": "Làm việc với ExpressJS, NestJS. Học và triển khai kiến thức về CI/CD, backend và front-end web app.",
+      "achievements": [
+        "Học và áp dụng ExpressJS, NestJS trong dự án thực tế",
+        "Triển khai quy trình CI/CD cho team",
+        "Phát triển các tính năng web applications",
+        "Tham gia code review và mentoring junior"
+      ],
+      "gradient": "from-green-500 to-teal-600"
+    }
+  ],
+
+  "sections": {
+    "hero": {
+      "greeting": "👋 Xin chào, tôi là",
+      "contact_cta": "Liên hệ ngay",
+      "github_cta": "Xem GitHub"
+    },
+    "skills": {
+      "title": "Kỹ năng & Công nghệ",
+      "subtitle": "Những công nghệ và công cụ tôi sử dụng hàng ngày",
+      "categories": {
+        "frontend": "Frontend Development",
+        "backend": "Backend Development", 
+        "tools": "Tools & DevOps"
+      }
+    },
+    "projects": {
+      "title": "Dự án tiêu biểu",
+      "subtitle": "Những sản phẩm đã được triển khai thành công với công nghệ hiện đại"
+    },
+    "experience": {
+      "title": "Kinh nghiệm làm việc",
+      "subtitle": "Hành trình phát triển chuyên môn và đóng góp tại các dự án thực tế"
+    },
+    "contact": {
+      "title": "Sẵn sàng hợp tác?",
+      "subtitle": "Tôi luôn mở lòng với những cơ hội mới và các dự án thú vị. Hãy liên hệ để cùng thảo luận về ý tưởng của bạn!"
+    }
+  },
+
+  "footer": {
+    "copyright": "© 2024 Nguyễn Quốc An. Thiết kế và phát triển với ❤️ bằng",
+    "tech": "Next.js & Framer Motion"
+  }
+} 
