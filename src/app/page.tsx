@@ -332,7 +332,7 @@ export default function Home() {
               whileHover={{ y: -10 }}
             >
               <div className="absolute inset-0 bg-gradient-to-r from-blue-400 to-purple-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity"></div>
-              <div className="relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm p-8 rounded-2xl border border-white/20 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300">
+              <div className="relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm p-8 rounded-2xl border border-white/20 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300 h-full">
                 <div className="flex items-center mb-8">
                   <div className="w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center mr-4">
                     <Palette className="text-white" size={24} />
@@ -385,7 +385,7 @@ export default function Home() {
               whileHover={{ y: -10 }}
             >
               <div className="absolute inset-0 bg-gradient-to-r from-green-400 to-teal-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity"></div>
-              <div className="relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm p-8 rounded-2xl border border-white/20 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300">
+              <div className="relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm p-8 rounded-2xl border border-white/20 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300 h-full">
                 <div className="flex items-center mb-8">
                   <div className="w-12 h-12 bg-gradient-to-br from-green-500 to-teal-600 rounded-xl flex items-center justify-center mr-4">
                     <Server className="text-white" size={24} />
@@ -438,7 +438,7 @@ export default function Home() {
               whileHover={{ y: -10 }}
             >
               <div className="absolute inset-0 bg-gradient-to-r from-purple-400 to-pink-500 rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity"></div>
-              <div className="relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm p-8 rounded-2xl border border-white/20 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300">
+              <div className="relative bg-white/70 dark:bg-gray-800/70 backdrop-blur-sm p-8 rounded-2xl border border-white/20 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300 h-full">
                 <div className="flex items-center mb-8">
                   <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-600 rounded-xl flex items-center justify-center mr-4">
                     <Code2 className="text-white" size={24} />

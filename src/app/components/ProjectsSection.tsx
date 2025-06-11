@@ -68,7 +68,7 @@ export function ProjectsSection() {
               <div
                 className={`absolute inset-0 bg-gradient-to-r ${project.gradient} rounded-2xl blur opacity-25 group-hover:opacity-40 transition-opacity`}
               ></div>
-              <div className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl border border-white/20 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300">
+              <div className="relative bg-white/80 dark:bg-gray-800/80 backdrop-blur-sm p-8 rounded-2xl border border-white/20 dark:border-gray-700/50 hover:shadow-2xl transition-all duration-300 h-full">
                 <div className="flex items-start justify-between mb-6">
                   <div className="flex-1">
                     <div className="flex items-center mb-3">
