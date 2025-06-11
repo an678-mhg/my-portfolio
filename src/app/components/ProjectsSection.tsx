@@ -58,7 +58,7 @@ export function ProjectsSection() {
           whileInView="animate"
           viewport={{ once: true }}
         >
-          {projects.map((project, index) => (
+          {projects.map((project) => (
             <motion.div
               key={project.title}
               className="group relative"

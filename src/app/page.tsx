@@ -4,21 +4,14 @@ import { motion } from "framer-motion";
 import {
   Mail,
   Github,
-  ExternalLink,
-  Code2,
-  Briefcase,
-  User,
-  Server,
-  Palette,
   Package,
-  Star,
-  MapPin,
-  Calendar,
-  Phone,
-  ChevronDown,
   Moon,
   Sun,
   ArrowRight,
+  MapPin,
+  Code2,
+  Palette,
+  Server,
 } from "lucide-react";
 import { useTheme } from "./contexts/ThemeContext";
 import { MouseGradient, HeroMouseEffect } from "./components/MouseGradient";
@@ -32,112 +25,6 @@ const fadeInUp = {
   animate: { opacity: 1, y: 0 },
   transition: { duration: 0.6 },
 };
-
-const staggerContainer = {
-  animate: {
-    transition: {
-      staggerChildren: 0.1,
-    },
-  },
-};
-
-const skills = {
-  frontend: [
-    { name: "ReactJS", level: 95 },
-    { name: "Next.js", level: 90 },
-    { name: "TypeScript", level: 88 },
-    { name: "Tailwind CSS", level: 92 },
-    { name: "Framer Motion", level: 85 },
-    { name: "Redux/Zustand", level: 87 },
-  ],
-  backend: [
-    { name: "Node.js/Express", level: 80 },
-    { name: "NestJS", level: 75 },
-    { name: "Ruby on Rails", level: 70 },
-    { name: "Golang (Gin)", level: 65 },
-    { name: "PostgreSQL", level: 78 },
-    { name: "Redis", level: 72 },
-  ],
-  tools: [
-    { name: "Docker", level: 80 },
-    { name: "Git/GitLab CI/CD", level: 85 },
-    { name: "Firebase", level: 82 },
-    { name: "Keycloak", level: 75 },
-    { name: "Figma", level: 88 },
-  ],
-};
-
-const projects = [
-  {
-    title: "VNETWORK.VN",
-    description:
-      "Website giới thiệu dịch vụ của công ty VNETWORK với hơn 20 trang hiển thị, hệ thống CMS và giỏ hàng.",
-    tech: ["Next.js", "Strapi JS", "Ruby on Rails"],
-    features: ["Frontend với 20+ trang", "Hệ thống CMS", "Tự động gửi email"],
-    type: "Commercial Website",
-  },
-  {
-    title: "DataCentral",
-    description:
-      "Hệ thống nội bộ doanh nghiệp với nhiều module: Drives, Warehouse, Ticket & CV management.",
-    tech: ["ReactJS", "Ruby on Rails", "Keycloak"],
-    features: [
-      "File sharing như Google Drive",
-      "Quản lý thiết bị",
-      "Hệ thống phân quyền",
-    ],
-    type: "Enterprise System",
-  },
-  {
-    title: "TikTok Clone",
-    description:
-      "Clone ứng dụng TikTok với giao diện và chức năng cơ bản, sử dụng công nghệ hiện đại.",
-    tech: ["ReactJS", "Tailwind CSS", "Zustand"],
-    features: ["UI/UX tương tự TikTok", "Video player", "State management"],
-    type: "Personal Project",
-    link: "https://github.com/an678-mhg/tiktok-clone",
-  },
-  {
-    title: "VNETWORK Player",
-    description:
-      "Thư viện React mã nguồn mở giúp nhúng player VNETWORK dễ dàng vào các dự án.",
-    tech: ["ReactJS", "TypeScript", "NPM"],
-    features: ["Component tái sử dụng", "TypeScript support", "NPM package"],
-    type: "Open Source Library",
-    link: "https://www.npmjs.com/package/vnetwork-player",
-  },
-];
-
-const experiences = [
-  {
-    company: "VNETWORK JSC",
-    position: "Front End Developer",
-    period: "2022 – 2024",
-    location: "Hà Nội, Việt Nam",
-    description:
-      "Tham gia các dự án lớn như website chính vnetwork.vn và hệ thống quản lý nội bộ. Học hỏi và phối hợp với backend team (Ruby on Rails) và devops team (Docker, CI/CD).",
-    achievements: [
-      "Phát triển website chính của công ty với 20+ trang",
-      "Xây dựng hệ thống quản lý nội bộ phục vụ 100+ nhân viên",
-      "Tích hợp API và làm việc với backend team",
-      "Triển khai CI/CD và Docker cho dự án",
-    ],
-  },
-  {
-    company: "GPET - CodeGym Online",
-    position: "Intern/Collaborator",
-    period: "2021 – 2022",
-    location: "Remote",
-    description:
-      "Làm việc với ExpressJS, NestJS. Học và triển khai kiến thức về CI/CD, backend và front-end web app.",
-    achievements: [
-      "Học và áp dụng ExpressJS, NestJS trong dự án thực tế",
-      "Triển khai quy trình CI/CD cho team",
-      "Phát triển các tính năng web applications",
-      "Tham gia code review và mentoring junior",
-    ],
-  },
-];
 
 export default function Home() {
   const { theme, toggleTheme } = useTheme();
@@ -572,11 +459,12 @@ export default function Home() {
                       transition={{ duration: 0.5, delay: index * 0.1 }}
                       whileHover={{ y: -5, scale: 1.05 }}
                     >
-                      <div className="w-12 h-12 mb-3 flex items-center justify-center">
-                        <img
+                      <div className="relative w-12 h-12 mb-3 flex items-center justify-center">
+                        <Image
                           src={skill.logo}
                           alt={skill.name}
                           className="w-full h-full object-contain transition-transform group-hover/skill:scale-110"
+                          fill
                         />
                       </div>
                       <span className="text-xs font-medium text-center text-gray-700 dark:text-gray-300 group-hover/skill:text-gray-900 dark:group-hover/skill:text-white transition-colors">
