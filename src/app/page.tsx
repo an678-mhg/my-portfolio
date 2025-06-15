@@ -55,25 +55,25 @@ export default function Home() {
                   href="#skills"
                   className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  Kỹ năng
+                  Skills
                 </a>
                 <a
                   href="#projects"
                   className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  Dự án
+                  Projects
                 </a>
                 <a
                   href="#experience"
                   className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors"
                 >
-                  Kinh nghiệm
+                  Experience
                 </a>
                 <a
                   href="#contact"
                   className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg hover:from-blue-700 hover:to-purple-700 transition-all duration-300 shadow-lg"
                 >
-                  Liên hệ
+                  Contact
                 </a>
               </div>
 

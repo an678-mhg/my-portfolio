@@ -6,18 +6,25 @@ import { ThemeProvider } from "./contexts/ThemeContext";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Nguyễn Quốc An - Frontend Developer",
+  title: "Nguyen Quoc An - Frontend Developer",
   description:
-    "Portfolio của Nguyễn Quốc An - Frontend Developer với hơn 2 năm kinh nghiệm trong ReactJS và các công nghệ web hiện đại",
+    "Portfolio of Nguyen Quoc An - Frontend Developer with more than 2 years of experience in ReactJS and modern web technologies",
   keywords:
     "Frontend Developer, ReactJS, Next.js, TypeScript, Portfolio, Web Developer",
-  authors: [{ name: "Nguyễn Quốc An" }],
+  authors: [{ name: "Nguyen Quoc An" }],
   viewport: "width=device-width, initial-scale=1",
   openGraph: {
     title: "Nguyễn Quốc An - Frontend Developer",
     description: "Portfolio của Frontend Developer với hơn 2 năm kinh nghiệm",
     type: "website",
-    locale: "vi_VN",
+    locale: "en_US",
+    images: [
+      {
+        url: "/ng-quoc-an.JPG",
+        width: 800,
+        height: 600,
+      },
+    ],
   },
 };
 

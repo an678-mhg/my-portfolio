@@ -117,7 +117,7 @@ export function ProjectsSection() {
 
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white mb-3">
-                    Tính năng chính:
+                    Features:
                   </h4>
                   <ul className="space-y-2">
                     {project.features.map((feature, idx) => (
